@@ -1,6 +1,6 @@
 import streamlit as st
 
-# page setup####
+# page setup######
 st.set_page_config(page_title="Arnav Kashyap", page_icon=":material/edit:")
 
 about_page=st.Page(
