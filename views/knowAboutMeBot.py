@@ -26,7 +26,7 @@ hf_token = os.getenv("HF_Token")
 OPENAI_API_KEY=os.getenv("OPENAI_API_KEY")
 
 cassio.init(token=ASTRA_DB_TOKEN,database_id=ASTRA_DB_ID)
-
+#tried my best
 # prompt = ChatPromptTemplate.from_template(
 #     """
 #     You are friend of Arnav. Your name is Ibot. You have to answer user query like that.
