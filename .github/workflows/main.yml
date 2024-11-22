@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://akash80085:$HF_TOKEN@huggingface.co/spaces/akash80085/Arnav_Portfolio_LLM main
+        run: git push --force https://akash80085:$HF_TOKEN@huggingface.co/spaces/akash80085/Arnav_Portfolio_LLM main
